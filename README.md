@@ -21,7 +21,7 @@ date în mod digital: de la **crearea primelor tabele** la **inserarea unor date
 - _Structured Query Language (SQL)_
 - _MySQL Workbench (Sistem de Gestiune a Bazelor de Date)_
 
-**Entități** (4):
+**Entități** (5):
 - _Angajat_ (tabelul unde sunt introduși toți angajații salonului)
 - _Client_ (tabelul unde sunt introduși toți clienții salonului)
 - _Funcție_ (tabelul unde sunt introduse toate funcțiile deținute de angajați)
