@@ -56,8 +56,8 @@ date în mod digital: de la **crearea primelor tabele** la **inserarea unor date
   - _**1** Câte programări au fost făcute astăzi în total_
  
   **Alte detalii**
-  - _**4** Chei Străine (FOREIGN KEYS)
-  - _**5** Chei cu constrângerea de Autoincrementare (AUTO_INCREMENT)
+  - _**4** Chei Străine (FOREIGN KEYS)_
+  - _**5** Chei cu constrângerea de Autoincrementare (AUTO_INCREMENT)_
 
 ## #4. Ce am exersat în acest proiect
 
