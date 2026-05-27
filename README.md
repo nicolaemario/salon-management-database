@@ -17,9 +17,9 @@ date în mod digital: de la **crearea primelor tabele** la **inserarea unor date
 ## #3. Descriere
 
 **Tehnologii folosite** (3):
-- _MySQL_
+- _MySQL (Sistem de Gestiune a Bazelor de Date_
 - _Structured Query Language (SQL)_
-- _MySQL Workbench (Sistem de Gestiune a Bazelor de Date)_
+- _MySQL Workbench (Interfață Grafică pentru MySQL)_
 
 **Entități** (5):
 - _Angajat_ (tabelul unde sunt introduși toți angajații salonului)
@@ -29,16 +29,16 @@ date în mod digital: de la **crearea primelor tabele** la **inserarea unor date
 - _Programări_ (tabelul unde sunt introduse toate programările făcute de către clienți)
 
 **Relații** (4)
-- _Client-Serviciu_ (**Cardinalitate Many-to-Many**(M:N))
+- _Client --- Serviciu_ (**Cardinalitate Many-to-Many**(M:N))
     * _Un Client_ **poate primi** _mai multe Servicii_,
     *  _Un Serviciu_ **poate fi primit** de _mai mulți Clienți_;
-- _Serviciu-Programare_ (**Cardinalitate One-to-Many**(1:M))
+- _Serviciu --- Programare_ (**Cardinalitate One-to-Many**(1:M))
     * _Un Serviciu_ **poate avea** mai multe _Programări_,
     *  _O Programare_ **poate avea** _un singur Serviciu_;
-- _Serviciu-Angajat_ (**Cardinalitate Many-to-Many**(M:N))
+- _Serviciu --- Angajat_ (**Cardinalitate Many-to-Many**(M:N))
     * _Un Serviciu_ **poate avea** _mai mulți _Angajați_,
     *  _Un Angajat_ **poate avea** _mai multe Servicii_;
-- Angajat-Funcție_ (**Cardinalitate Many-to-One**(M:1))
+- Angajat --- Funcție_ (**Cardinalitate Many-to-One**(M:1))
     * _Un Angajat_ **poate deține** _o singură _Funcție_,
     *  _O funcție_ **poate fi deținută**de _mai mulți Angajați_;
  
